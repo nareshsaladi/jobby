@@ -1,0 +1,66 @@
+.submit-form-bg-container {
+  background-color: #ffffff;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-details-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: rgb(7, 7, 53);
+}
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.label-name {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: rgb(7, 7, 53);
+  line-height: 26px;
+}
+.input-name {
+  height: 50px;
+  margin-bottom: 15px;
+  border: 2px solid #64748b;
+}
+.label-email {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: rgb(7, 7, 53);
+  line-height: 26px;
+}
+.input-email {
+  height: 50px;
+  margin-bottom: 15px;
+  border: 2px solid #64748b;
+}
+.label-cover-letter {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: rgb(7, 7, 53);
+  line-height: 26px;
+}
+.input-cover-letter {
+  border: 2px solid #64748b;
+}
+
+.submit-btn {
+  height: 50px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'roboto';
+  font-weight: 600;
+  background-color: #6366f1;
+  cursor: pointer;
+}
